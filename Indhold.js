@@ -1,6 +1,6 @@
 var macAddress = "00:06:66:07:AE:84";
 
-function onload(){
+function onLoad(){
 	document.addEventListener("deviceready", OnDeviceReady, false);
 }
 
@@ -26,6 +26,6 @@ function onDisconnect(){
 	statusDiv.innerHTML="Disconnected.";
 }
 
-function subscribefailed(){
+function subscribeFailed(){
 	alert("subscribe failed");
 }

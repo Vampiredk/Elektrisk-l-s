@@ -9,7 +9,7 @@ function onDeviceReady(){
 }
 
 function onConnect(){
-	bluetoothSerial.subscribe("\n", onMessage, subscribeFailed);
+	bluetoothSerial.subscribe('\n', onMessage, subscribeFailed);
     document.getElementById("statusDiv").innerHTML="Connected to " + macAddress + ".";
 }
 

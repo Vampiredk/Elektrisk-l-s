@@ -1,4 +1,4 @@
-var macAddress = "00:06:66:07:AE:84";
+var macAddress = "00:06:66:87:CD:49";
 
 function onLoad(){
 	document.addEventListener("deviceready", OnDeviceReady, false);
@@ -22,7 +22,7 @@ function sendToArduino(data){
 }
 
 function onDisconnect(){
-	alert("Disconnect");
+	alert("Disconnected");
 	statusDiv.innerHTML="Disconnected.";
 }
 

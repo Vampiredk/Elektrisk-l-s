@@ -31,7 +31,7 @@ function onMessage(data) {
  * I dette eksempel sendes en streng 
  */
 function sendToArduino(data) {
-        bluetoothSerial.write(data);
+        bluetoothSerial.Write(data);
 }
 
 
